@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Vamo tomar um café hoje ☕</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #111111, #1a1a1a 35%, #b68b00 100%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        border-radius: 18px;
+        box-shadow: 0 15px 35px rgba(0,0,0,.35);
+        text-align: center;
+        max-width: 400px;
+        animation: aparecer 1.2s ease;
+    }
+
+    h1 {
+        color: #111;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .botao {
+        margin-top: 20px;
+        padding: 12px 28px;
+        background: #c79a00;
+        color: #111;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .botao:hover {
+        background: #e0ad00;
+        transform: scale(1.05);
+    }
+
+    @keyframes aparecer {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<script>
+function responder() {
+    alert("Jaé, paizão! Te espero às 17:50 ☕");
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Vamo tomar um cafetão hoje betin ☕</h1>
+
+    <p>
+        Cafézin hoje?<br>
+        às <strong>17:51</strong>?
+    </p>
+
+    <button class="botao" onclick="responder()">
+        Aceitar convite ☕
+    </button>
+
+</div>
+
+</body>
+</html>
