@@ -1,0 +1,7 @@
+background: linear-gradient(
+    135deg,
+    #0a0a0a 0%,
+    #1b1b1b 40%,
+    #8d6b00 75%,
+    #c79a00 100%
+);
